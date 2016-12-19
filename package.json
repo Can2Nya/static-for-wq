@@ -1,0 +1,30 @@
+{
+  "name": "static-generate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://silenceMMM@github.com/Front-end-project/static-for-wq.git"
+  },
+  "keywords": [
+    "nuxt.js",
+    "gererate"
+  ],
+  "author": "Front-end-project",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Front-end-project/static-for-wq/issues"
+  },
+  "homepage": "https://github.com/Front-end-project/static-for-wq#readme",
+  "dependencies": {
+    "nuxt": "^0.8.8"
+  }
+}
