@@ -1,0 +1,1 @@
+#  use nuxt.js genernate static website
