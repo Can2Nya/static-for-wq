@@ -16,8 +16,8 @@
     "grunt-contrib-uglify": "~0.5.1"
   },
   "scripts": {
-    "preview": "cd _site; python -m SimpleHTTPServer 8020",
-    "watch": "grunt & grunt watch & npm run preview & jekyll serve -w"
+    "preview": "cd _site; python -m SimpleHTTPServer 8010",
+    "watch": "grunt & grunt watch & npm run preview & bundle exec jekyll serve -w"
   },
   "dependencies": {
     "bootstrap": "^3.3.7"
