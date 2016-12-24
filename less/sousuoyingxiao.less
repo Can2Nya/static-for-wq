@@ -1,7 +1,14 @@
-.service {
+.search {
   background-color: #fff;
   border-radius: 4px;
-  box-shadow: 0px -6px 6px 0px #d9d9d9;
+  box-shadow: 0px 6px 6px 0px #d9d9d9;
+  margin-bottom: 30px;
+  @media (max-width: 728px) {
+    .search-content {
+      padding: 80px 0;
+      text-align: center;
+    }
+  }
   h2 {
     font-size: 30px;
     text-align: center;
@@ -16,6 +23,10 @@
     opacity: 0.5;
     max-width: 950px;
     margin: 0 auto;
+  }
+  &-content {
+    padding: 80px 50px;
+    text-align: center;
   }
   p {
     font-size: 14px;
@@ -32,41 +43,43 @@
     max-width: 950px;
     margin: 0 auto;
     padding: 0 0 50px;
-  }
-  &-what {
-    text-align: center;
-    padding: 100px 50px;
-  }
-  &-how {
-    padding: 100px 50px;
-  }
-  &-advantage {
-    padding: 100px 50px;
-    &-description {
-      max-width: 750px;
-      margin: 0 auto;
-    }
-    &-icon {
-      display: inline-block;
+    &-model {
       text-align: center;
-      border-left: 1px solid #dcdcdc;
-      border-right: 1px solid #dcdcdc;
+      p {
+        max-width: 350px;
+        margin: 0 auto;
+        padding-bottom: 40px;
+      }
+      img {
+        width: 100%
+      }
     }
-  }
-  &-fees {
-    padding: 100px 50px;
   }
   &-icon {
     display: inline-block;
     text-align: center;
-    padding: 0 40px;
   }
-  &-way {
-    text-align: center;
+  &-advantage {
+    &-icon {
+      height: 150px;
+      display: inline-block;
+      text-align: center;
+    }
+    p.number {
+      color: red;
+    }
+  }
+  &-fee {
+    max-width: 700px;
+    margin: 0 auto;
+    p {
+      text-align: left;
+    }
   }
   ul.tablist {
     list-style: none;
     text-align: center;
+    padding: 0;
     li {
       width: 125px;
       display: inline-block;
